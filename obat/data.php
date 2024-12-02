@@ -31,7 +31,7 @@
                 </thead>
                 <tbody>
                 <?php 
-                
+            
                 // 
                 $batas = 100;
                 $hal = isset($_GET['hal']);
@@ -73,7 +73,7 @@
                     <?php 
                     }
                 } else{
-                    echo "<tr><td colspan='4' align='center'> Data tidak ditemukan</td></tr>";
+                    echo "<tr><td colspan=\"4\" align=\"center\"> Data tidak ditemukan</td></tr>";
                 }
                 ?>
                 </tbody>
