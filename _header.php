@@ -1,5 +1,8 @@
 <?php 
 include("_config/config.php");
+include("_assets/libs/vendor/autoload.php");
+
+
 if(!isset($_SESSION['user'])){
     echo "<script>window.location='".base_url("auth/login.php")."'</script>";
 } ?>
